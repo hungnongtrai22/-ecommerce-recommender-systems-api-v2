@@ -200,6 +200,7 @@ def fetch_poster(movie_id):
 #         # fetch poster from API
 #         recommend_movies_posters.append(fetch_poster(movie_id))
 #     return recommend_movies,recommend_movies_posters
+# new
 
 # Define the route to the sentiment predictor
 @app.post("/recommend_movie")
